@@ -11,7 +11,7 @@ dataset_config:
   batch_size: 4
   cut_len: 32000  # length of training samples: 2s
   num_workers: 4  # dataloader workers
-  train_src_dir: <path-to-noisy-train-dir>
+  train_src_dir: /home/public/SE_datasets/VCTK-DEMAND/train/noisy
   train_tgt_dir: <path-to-clean-train-dir>
   val_src_dir: <path-to-noisy-val-dir>
   val_tgt_dir: <path-to-clean-val-dir>
